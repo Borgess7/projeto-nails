@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&family=Share+Tech&family=Sriracha&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -35,13 +37,13 @@ header > a {
     color: aliceblue;
     font-weight: bold;
     font-family: "Sriracha", cursive;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 a:hover {
     border-radius: 7px;
     color: #644ff0;
-    transition: 0.7s;
+    transition: 0.4s;
 }
 
 .contact {
@@ -85,6 +87,14 @@ main {
     flex-shrink: 2;
     gap: 16px;
     padding: 16px;
+}
+
+.imgtitle {
+    text-align: center;
+    color: #636363;
+    font-family: "Share Tech", sans-serif;
+    font-size: large;
+    font-weight: bolder;
 }
 
 .nails {
